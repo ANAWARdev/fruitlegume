@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ body {
+    background-color: rgb(5, 147, 107);
+    
+ }
+ body section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+}
+body section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+body section div nav ul {
+    list-style: none;
+}
