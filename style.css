@@ -4,7 +4,10 @@
 }
  body {
     background-color: rgb(5, 147, 107);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
  }
  body section {
     display: flex;
@@ -25,4 +28,9 @@ body section div {
 
 body section div nav ul {
     list-style: none;
+}
+
+body section div nav ul li a img {
+    width: 200px;
+    height: 200px;
 }
