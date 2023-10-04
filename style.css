@@ -6,7 +6,8 @@ ul {
     list-style: none;
 }
 
-a {
+a { font-family: Arial;  
+    font-size:20px ;
     text-decoration: none;
 }
  body {
@@ -45,11 +46,6 @@ body section div img {
     transition: 0.5s;
 }
 
-body section nav ul li a {
-    font-family: Arial;  
-    font-size:20px ;
-   
-}
 body section .top:hover img{
     transform:translateY(-90%);
     
