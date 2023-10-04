@@ -2,6 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
  body {
     background-color: rgb(5, 147, 107);
     display: flex;
@@ -11,12 +18,11 @@
  }
  body section {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     width: 600px;
     height: 600px;
-    background-color: white;
+    
+    
 }
 body section div {
     display: flex;
@@ -24,13 +30,59 @@ body section div {
     align-items: center;
     width: 200px;
     height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(238, 231, 231, 1);
+    
+   
 }
 
-body section div nav ul {
-    list-style: none;
+body section div img {
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    transition: 0.5s;
 }
 
-body section div nav ul li a img {
-    width: 200px;
-    height: 200px;
+body section nav ul li a {
+    font-family: Arial;  
+    font-size:20px ;
+   
 }
+body section .top:hover img{
+    transform:translateY(-90%);
+    
+}
+body section .droite:hover img{
+    transform:translateX(90%);
+   
+}
+body section .bottom:hover img{
+    transform:translateY(90%);
+}
+body section .gauche:hover img{
+    transform:translateX(90%);
+}
+body section .top:hover img{
+    transform:translateY(-90%);
+    
+}
+body section .droite:hover img{
+    transform:translateX(90%);
+    
+}
+body section .bottom:hover img{
+    transform:translateY(90%);}
+  
+body section .gauche:hover img{
+    transform:translateX(-90%);
+}
+body section .top:hover img{
+    transform:translateY(-90%);}
+    
+
+ 
+ 
+  
+
